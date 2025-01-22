@@ -3,6 +3,7 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Box } from "@mui/material";
 import { useRouter } from "next/navigation";
+import { Bold } from "lucide-react";
 
 const Navbar = () => {
   const router = useRouter();
